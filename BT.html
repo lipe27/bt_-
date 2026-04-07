@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BT Autocenter - O shopping do seu carro</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="BT.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="header__container">
+    <div class="header__logo">
+      <img src="Copilot_20260406_141943.png" alt="Mascote BT Autocenter – O mecânico que cuida do seu carro" class="header__mascote" width="40" height="40">
+      <h1>BT AUTOCENTER</h1>
+    </div>
+    <button class="header__toggle" aria-expanded="false" aria-label="Abrir menu">
+      
+    </button>
+    <ul class="header__menu">
+      <li><a href="#" class="header__link">Início</a></li>
+      <li><a href="#produtos" class="header__link">Produtos</a></li>
+      <li><a href="#servicos" class="header__link">Serviços</a></li>
+      <li><a href="https://www.mercadolivre.com.br/pagina/btautocenter" class="header__link">Loja no Mercado Livre</a></li>
+      <li><a href="#contato" class="header__link">Sobre</a></li>
+    </ul>
+  </div>
+</header>
+
+<!-- WHATSAPP FLUTUANTE -->
+<a href="https://wa.me/554236351636" target="_blank" class="whatsapp-float" aria-label="WhatsApp BT Autocenter">
+  <img src="whats.png" alt="WhatsApp BT Autocenter" class="whatsapp-float__icon">
+</a>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero__overlay"></div>
+  <div class="hero__content">
+    <img src="Copilot_20260406_141943.png" alt="Mascote BT Autocenter – O mecânico que cuida do seu carro" class="hero__mascote">
+    <h2 class="hero__title"> O shopping do seu carro</h2>
+    <p class="hero__subtitle">Peças originais, serviços especializados e atendimento de confiança para seu veículo.</p>
+    <div class="hero__ctas">
+      <a href="#produtos" class="btn btn--primary">Ver Produtos</a>
+      <a href="#servicos" class="btn btn--secondary">Nossos Serviços</a>
+    </div>
+  </div>
+</section>
+
+<!-- SERVIÇOS / CARROSSEL -->
+<section class="servicos" id="servicos">
+  <h2 class="servicos__title">Serviços</h2>
+  <div class="servicos__carousel">
+    <div class="servicos__item">
+      <img src="https://static.wixstatic.com/media/6fcfc8_32978668c0bb491b98081d3f43d672df~mv2.webp/v1/fill/w_1000,h_1000,al_c,q_85,usm_0.66_1.00_0.01/6fcfc8_32978668c0bb491b98081d3f43d672df~mv2.webp" alt="Serviço de Freios" class="servicos__img">
+      <span class="servicos__label">Freios</span>
+    </div>
+    <div class="servicos__item">
+      <img src="https://th.bing.com/th/id/R.bb02d2290d2dbdc730477f4276a01b90?rik=go7GNVCWPiZg2A&riu=http%3a%2f%2fkmctecnologia.com%2fwp-content%2fuploads%2f2022%2f11%2f1-o-que-voce-precisa-saber-sobre-alinhamento-de-carro.png&ehk=isYVfvL2lrG67G1JYH494cPLwrpuXmn7jJ761nosf0Y%3d&risl=&pid=ImgRaw&r=0%22" alt="Serviço de Alinhamento" class="servicos__img">
+      <span class="servicos__label">Alinhamento</span>
+    </div>
+    <div class="servicos__item">
+      <img src="https://www.minutoseguros.com.br/blog/wp-content/uploads/2016/07/troca-de-oleo-2.jpg" alt="Serviço de Troca de Óleo" class="servicos__img">
+      <span class="servicos__label">Troca de Óleo</span>
+    </div>
+    <div class="servicos__item">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.aSD1q9FsWmgYj-H49RLb4gHaE8?rs=1&pid=ImgDetMain&o=7&rm=3%22" alt="Serviço de Filtros" class="servicos__img">
+      <span class="servicos__label">Filtros</span>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUTOS -->
+<section class="produtos" id="produtos">
+  <h2 class="produtos__title">Produtos em Destaque</h2>
+  <div class="produtos__grid">
+    <!-- 20 Produtos -->
+    <!-- Cada produto usa placeholder, título, preço e mascote -->
+    
+    <div class="produto-card">
+      <div class="produto-card__image">
+        <img src="D_654278-MLB106274735853_012026-I.jpg" data-src="produto${i+1}.jpg" alt="Fechadura Interna Pta. Esq. F-1000 72/90 – BT Autocenter" class="produto-card__img">
+      </div>
+      <div class="produto-card__content">
+        <h3 class="produto-card__title">Fechadura Interna Pta. Esq. F-1000 72/90</h3>
+        <p class="produto-card__price">R$ 250,00</p>
+        <div class="produto-card__seal">
+          <img src="Copilot_20260406_141943.png" alt="Mascote BT Autocenter – O mecânico que cuida do seu carro" class="produto-card__mascote">
+          100% Original
+        </div>
+        <a href="https://www.mercadolivre.com.br/fechadura-interna-pta-esq-f1000-7290/up/MLBU3761293323" class="btn btn--cta">Comprar no Mercado Livre</a>
+      </div>
+    </div>
+    <div class="produto-card">
+      <div class="produto-card__image">
+        <img src="2.jpg" data-src="2.jpg" alt="Fechadura Superior Capô F-1000 – BT Autocenter" class="produto-card__img">
+      </div>
+      <div class="produto-card__content">
+        <h3 class="produto-card__title">Fechadura Superior Capô F-1000</h3>
+        <p class="produto-card__price">R$ 310,00</p>
+        <div class="produto-card__seal">
+          <img src="Copilot_20260406_141943.png" alt="Mascote BT Autocenter – O mecânico que cuida do seu carro" class="produto-card__mascote">
+          100% Original
+        </div>
+        <a href="https://www.mercadolivre.com.br/fechadura-superior-capo-f1000-f4000-89-a-91/up/MLBU3765289267?pdp_filters=item_id:MLB4457979661" class="btn btn--cta">Comprar no Mercado Livre</a>
+      </div>
+    </div><div class="produto-card">
+      <div class="produto-card__image">
+        <img src="3.webp" data-src="produto${i+1}.jpg" alt="Fechadura Int. Tampa Porta-malas - Santana ...90 – BT Autocenter" class="produto-card__img">
+      </div>
+      <div class="produto-card__content">
+        <h3 class="produto-card__title">Fechadura Int. Tampa Porta-malas - Santana ...90</h3>
+        <p class="produto-card__price">R$ 40,00</p>
+        <div class="produto-card__seal">
+          <img src="Copilot_20260406_141943.png" alt="Mascote BT Autocenter – O mecânico que cuida do seu carro" class="produto-card__mascote">
+          100% Original
+        </div>
+        <a href="https://www.mercadolivre.com.br/fechadura-inf-capo--passat--santana--quantum-ap-77/up/MLBU3726486011" class="btn btn--cta">Comprar no Mercado Livre</a>
+      </div>
+    </div><div class="produto-card">
+      <div class="produto-card__image">
+        <img src="4.jpg" data-src="produto${i+1}.jpg" alt="Fechadura Porta Esq. Toyota – BT Autocenter" class="produto-card__img">
+      </div>
+      <div class="produto-card__content">
+        <h3 class="produto-card__title">Fechadura Porta Esq. Toyota</h3>
+        <p class="produto-card__price">R$ 120,00</p>
+        <div class="produto-card__seal">
+          <img src="Copilot_20260406_141943.png" alt="Mascote BT Autocenter – O mecânico que cuida do seu carro" class="produto-card__mascote">
+          100% Original
+        </div>
+        <a href="https://www.mercadolivre.com.br/fechadura-porta-esq-toyota-bandeirante-1984/up/MLBU3766027903?pdp_filters=item_id:MLB4458332851" class="btn btn--cta">Comprar no Mercado Livre</a>
+      </div>
+    </div><div class="produto-card">
+      <div class="produto-card__image">
+        <img src="5.webp" data-src="produto${i+1}.jpg" alt="Produto ${i+1} – BT Autocenter" class="produto-card__img">
+      </div>
+      <div class="produto-card__content">
+        <h3 class="produto-card__title">Bronzinas Centrais Metal Leve - BC-001-J - 
+Ford Willys F75 Rural Jeep</h3>
+        <p class="produto-card__price">R$ 610,00</p>
+        <div class="produto-card__seal">
+          <img src="Copilot_20260406_141943.png" alt="Mascote BT Autocenter – O mecânico que cuida do seu carro" class="produto-card__mascote">
+          100% Original
+        </div>
+        <a href="https://www.mercadolivre.com.br/bronzina-metal-leve-bc001j-para-carrocaminhonete-ford/up/MLBU3841814663" class="btn btn--cta">Comprar no Mercado Livre</a>
+      </div>
+    </div><div class="produto-card">
+      <div class="produto-card__image">
+        <img src="6.webp" data-src="produto${i+1}.jpg" alt="Produto ${i+1} – BT Autocenter" class="produto-card__img">
+      </div>
+      <div class="produto-card__content">
+        <h3 class="produto-card__title">Bronzina De Biela Vw Gol 1.8 Passat Voyage - 0,50</h3>
+        <p class="produto-card__price">R$ 70,00</p>
+        <div class="produto-card__seal">
+          <img src="Copilot_20260406_141943.png" alt="Mascote BT Autocenter – O mecânico que cuida do seu carro" class="produto-card__mascote">
+          100% Original
+        </div>
+        <a href="https://www.mercadolivre.com.br/bronzina-de-biela-vw-gol-18-passat-voyage---050/up/MLBU3833000404" class="btn btn--cta">Comprar no Mercado Livre</a>
+      </div>
+    </div><div class="produto-card">
+      <div class="produto-card__image">
+        <img src="7.webp" data-src="produto${i+1}.jpg" alt="Produto ${i+1} – BT Autocenter" class="produto-card__img">
+      </div>
+      <div class="produto-card__content">
+        <h3 class="produto-card__title">Bronzina De Mancal Ford Corcel I 0,25mm</h3>
+        <p class="produto-card__price">R$ 160,00</p>
+        <div class="produto-card__seal">
+          <img src="Copilot_20260406_141943.png" alt="Mascote BT Autocenter – O mecânico que cuida do seu carro" class="produto-card__mascote">
+          100% Original
+        </div>
+        <a href="https://www.mercadolivre.com.br/bronzina-de-mancal-ford-corcel-i-025mm/up/MLBU3836461205" class="btn btn--cta">Comprar no Mercado Livre</a>
+      </div>
+    </div><div class="produto-card">
+      <div class="produto-card__image">
+        <img src="8.webp" data-src="produto${i+1}.jpg" alt="Produto ${i+1} – BT Autocenter" class="produto-card__img">
+      </div>
+      <div class="produto-card__content">
+        <h3 class="produto-card__title">Bronzina De Biela Gm Chevette 1.4/1.6</h3>
+        <p class="produto-card__price">R$ 120,00</p>
+        <div class="produto-card__seal">
+          <img src="Copilot_20260406_141943.png" alt="Mascote BT Autocenter – O mecânico que cuida do seu carro" class="produto-card__mascote">
+          100% Original
+        </div>
+        <a href="https://www.mercadolivre.com.br/bronzina-de-biela-gm-chevette-1416/up/MLBU3828439655" class="btn btn--cta">Comprar no Mercado Livre</a>
+      </div>
+    </div><div class="produto-card">
+      <div class="produto-card__image">
+        <img src="9.webp" data-src="produto${i+1}.jpg" alt="Produto ${i+1} – BT Autocenter" class="produto-card__img">
+      </div>
+      <div class="produto-card__content">
+        <h3 class="produto-card__title">Medidor De Combustível Ipanema 90...91</h3>
+        <p class="produto-card__price">R$ 280,00</p>
+        <div class="produto-card__seal">
+          <img src="Copilot_20260406_141943.png" alt="Mascote BT Autocenter – O mecânico que cuida do seu carro" class="produto-card__mascote">
+          100% Original
+        </div>
+        <a href="https://www.mercadolivre.com.br/medidor-de-combustivel-ipanema-9091/up/MLBU3773941303" class="btn btn--cta">Comprar no Mercado Livre</a>
+      </div>
+    </div><div class="produto-card">
+      <div class="produto-card__image">
+        <img src="10.webp" data-src="produto${i+1}.jpg" alt="Produto ${i+1} – BT Autocenter" class="produto-card__img">
+      </div>
+      <div class="produto-card__content">
+        <h3 class="produto-card__title">Boia - Quantum 85/94 Royale - Versailles 91/94 Santana 84/94</h3>
+        <p class="produto-card__price">R$ 110,00</p>
+        <div class="produto-card__seal">
+          <img src="Copilot_20260406_141943.png" alt="Mascote BT Autocenter – O mecânico que cuida do seu carro" class="produto-card__mascote">
+          100% Original
+        </div>
+        <a href="https://www.mercadolivre.com.br/boia--quantum-8594-royale--versailles-9194-santana-8494/up/MLBU3783212012" class="btn btn--cta">Comprar no Mercado Livre</a>
+      </div>
+    </div><div class="produto-card">
+      <div class="produto-card__image">
+        <img src="11.webp" data-src="produto${i+1}.jpg" alt="Produto ${i+1} – BT Autocenter" class="produto-card__img">
+      </div>
+      <div class="produto-card__content">
+        <h3 class="produto-card__title">Mb Bomba De Óleo Ar5010 Para Linha Pesada OM-314/352/608</h3>
+        <p class="produto-card__price">R$ 800,00</p>
+        <div class="produto-card__seal">
+          <img src="Copilot_20260406_141943.png" alt="Mascote BT Autocenter – O mecânico que cuida do seu carro" class="produto-card__mascote">
+          100% Original
+        </div>
+        <a href="https://www.mercadolivre.com.br/mb-bomba-de-oleo-ar5010-para-linha-pesada/up/MLBU3813919036" class="btn btn--cta">Comprar no Mercado Livre</a>
+      </div>
+    </div><div class="produto-card">
+      <div class="produto-card__image">
+        <img src="12.webp" data-src="produto${i+1}.jpg" alt="Produto ${i+1} – BT Autocenter" class="produto-card__img">
+      </div>
+      <div class="produto-card__content">
+        <h3 class="produto-card__title">Bomba De Água Vw Fox Polo Polo Classic Motor At/ea111</h3>
+        <p class="produto-card__price">R$ 140,00</p>
+        <div class="produto-card__seal">
+          <img src="Copilot_20260406_141943.png" alt="Mascote BT Autocenter – O mecânico que cuida do seu carro" class="produto-card__mascote">
+          100% Original
+        </div>
+        <a href="https://www.mercadolivre.com.br/bomba-de-agua-vw-fox-polo-polo-classic-motor-atea111/up/MLBU3791527556" class="btn btn--cta">Comprar no Mercado Livre</a>
+      </div>
+    </div><div class="produto-card">
+      <div class="produto-card__image">
+        <img src="13.webp" data-src="produto${i+1}.jpg" alt="Produto ${i+1} – BT Autocenter" class="produto-card__img">
+      </div>
+      <div class="produto-card__content">
+        <h3 class="produto-card__title">Bomba De Óleo Vw Gol Saveiro Santana</h3>
+        <p class="produto-card__price">R$ 500,00</p>
+        <div class="produto-card__seal">
+          <img src="Copilot_20260406_141943.png" alt="Mascote BT Autocenter – O mecânico que cuida do seu carro" class="produto-card__mascote">
+          100% Original
+        </div>
+        <a href="https://www.mercadolivre.com.br/bomba-de-oleo-vw-gol-saveiro-santana/up/MLBU3803974297" class="btn btn--cta">Comprar no Mercado Livre</a>
+      </div>
+    </div><div class="produto-card">
+      <div class="produto-card__image">
+        <img src="14.webp" data-src="produto${i+1}.jpg" alt="Produto ${i+1} – BT Autocenter" class="produto-card__img">
+      </div>
+      <div class="produto-card__content">
+        <h3 class="produto-card__title">Cabo De Freio De Mão Utilitário A/c/d 10 67... A/c14c 85/89</h3>
+        <p class="produto-card__price">R$ 60,00</p>
+        <div class="produto-card__seal">
+          <img src="Copilot_20260406_141943.png" alt="Mascote BT Autocenter – O mecânico que cuida do seu carro" class="produto-card__mascote">
+          100% Original
+        </div>
+        <a href="https://www.mercadolivre.com.br/cabo-de-freio-de-mao-utilitario-acd-10-67-ac14c-8589/up/MLBU3502002614" class="btn btn--cta">Comprar no Mercado Livre</a>
+      </div>
+    </div><div class="produto-card">
+      <div class="produto-card__image">
+        <img src="15.webp" data-src="produto${i+1}.jpg" alt="Produto ${i+1} – BT Autocenter" class="produto-card__img">
+      </div>
+      <div class="produto-card__content">
+        <h3 class="produto-card__title">Cabo Acelerador - Gm Monza 1.8 Carb. Simples 82...8/86</h3>
+        <p class="produto-card__price">R$ 60,00</p>
+        <div class="produto-card__seal">
+          <img src="Copilot_20260406_141943.png" alt="Mascote BT Autocenter – O mecânico que cuida do seu carro" class="produto-card__mascote">
+          100% Original
+        </div>
+        <a href="https://www.mercadolivre.com.br/cabo-acelerador--gm-monza-18-carb-simples-82886/up/MLBU3516018585" class="btn btn--cta">Comprar no Mercado Livre</a>
+      </div>
+    </div><div class="produto-card">
+      <div class="produto-card__image">
+        <img src="16.webp" data-src="produto${i+1}.jpg" alt="Produto ${i+1} – BT Autocenter" class="produto-card__img">
+      </div>
+      <div class="produto-card__content">
+        <h3 class="produto-card__title">Cabo Velocímetro - Ford Escort ...88</h3>
+        <p class="produto-card__price">R$ 50,00</p>
+        <div class="produto-card__seal">
+          <img src="Copilot_20260406_141943.png" alt="Mascote BT Autocenter – O mecânico que cuida do seu carro" class="produto-card__mascote">
+          100% Original
+        </div>
+        <a href="https://www.mercadolivre.com.br/cabo-velocimetro--ford-escort-88/up/MLBU3427927352" class="btn btn--cta">Comprar no Mercado Livre</a>
+      </div>
+    </div><div class="produto-card">
+      <div class="produto-card__image">
+        <img src="17.webp" data-src="produto${i+1}.jpg" alt="Produto ${i+1} – BT Autocenter" class="produto-card__img">
+      </div>
+      <div class="produto-card__content">
+        <h3 class="produto-card__title">Virabrequim Do Motor Gm Monza Álcool/ Gasolina 1.6/1.8 ...86</h3>
+        <p class="produto-card__price">R$ 1500,00</p>
+        <div class="produto-card__seal">
+          <img src="Copilot_20260406_141943.png" alt="Mascote BT Autocenter – O mecânico que cuida do seu carro" class="produto-card__mascote">
+          100% Original
+        </div>
+        <a href="https://www.mercadolivre.com.br/virabrequim-do-motor-gm-monza-alcool-gasolina-1618-86/up/MLBU3844234199" class="btn btn--cta">Comprar no Mercado Livre</a>
+      </div>
+    </div><div class="produto-card">
+      <div class="produto-card__image">
+        <img src="18.webp" data-src="produto${i+1}.jpg" alt="Produto ${i+1} – BT Autocenter" class="produto-card__img">
+      </div>
+      <div class="produto-card__content">
+        <h3 class="produto-card__title">Máquina De Vidro Manual - F1000 Sapão 1992...1998 Dian. Esq.</h3>
+        <p class="produto-card__price">R$ 150,00</p>
+        <div class="produto-card__seal">
+          <img src="Copilot_20260406_141943.png" alt="Mascote BT Autocenter – O mecânico que cuida do seu carro" class="produto-card__mascote">
+          100% Original
+        </div>
+        <a href="https://www.mercadolivre.com.br/maquina-de-vidro-manual--f1000-sapao-19921998-dian-esq/up/MLBU3721916898" class="btn btn--cta">Comprar no Mercado Livre</a>
+      </div>
+    </div><div class="produto-card">
+      <div class="produto-card__image">
+        <img src="19.webp" data-src="produto${i+1}.jpg" alt="Produto ${i+1} – BT Autocenter" class="produto-card__img">
+      </div>
+      <div class="produto-card__content">
+        <h3 class="produto-card__title">Válvula De Admissão Trw Chevrolet Opala 4 Cilindros</h3>
+        <p class="produto-card__price">R$ 130,00</p>
+        <div class="produto-card__seal">
+          <img src="Copilot_20260406_141943.png" alt="Mascote BT Autocenter – O mecânico que cuida do seu carro" class="produto-card__mascote">
+          100% Original
+        </div>
+        <a href="https://www.mercadolivre.com.br/valvula-de-admissao-trw-chevrolet-opala-4-cilindros/up/MLBU3853368825" class="btn btn--cta">Comprar no Mercado Livre</a>
+      </div>
+    </div><div class="produto-card">
+      <div class="produto-card__image">
+        <img src="20.webp" data-src="produto${i+1}.jpg" alt="Produto ${i+1} – BT Autocenter" class="produto-card__img">
+      </div>
+      <div class="produto-card__content">
+        <h3 class="produto-card__title">Eixo Do Comando De Válvulas Std Aplic Resolit Vw 1.3/5/6</h3>
+        <p class="produto-card__price">R$ 880,00</p>
+        <div class="produto-card__seal">
+          <img src="Copilot_20260406_141943.png" alt="Mascote BT Autocenter – O mecânico que cuida do seu carro" class="produto-card__mascote">
+          100% Original
+        </div>
+        <a href="https://www.mercadolivre.com.br/eixo-do-comando-de-valvulas-std-aplic-resolit-vw-1356/up/MLBU3889216982" class="btn btn--cta">Comprar no Mercado Livre</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SELOS DE CONFIANÇA -->
+<section class="selos">
+  <div class="selos__item">
+    <img src="Copilot_20260406_141943.png" alt="Mascote BT Autocenter" class="selos__mascote">
+    <span>100% Original</span>
+  </div>
+  <div class="selos__item">
+    <img src="Copilot_20260406_141943.png" alt="Mascote BT Autocenter" class="selos__mascote">
+    <span>Garantia</span>
+  </div>
+  <div class="selos__item">
+    <img src="Copilot_20260406_141943.png" alt="Mascote BT Autocenter" class="selos__mascote">
+    <span>Profissionais Qualificados</span>
+  </div>
+  <div class="selos__item">
+    <img src="Copilot_20260406_141943.png" alt="Mascote BT Autocenter" class="selos__mascote">
+    <span>Entrega Rápida</span>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer" id="contato">
+  <div class="footer__container">
+    <img src="Copilot_20260406_141943.png" alt="Mascote BT Autocenter – O mecânico que cuida do seu carro" class="footer__mascote">
+    <p>Rua Expedicionário João Maria, 831, Centro, Laranjeiras do Sul – PR</p>
+    <p>Telefone/WhatsApp: (42) 3635-1636</p>
+    <a href="https://www.mercadolivre.com.br/pagina/btautocenter" class="footer__link">Loja no Mercado Livre</a>
+    <a href="#produtos" class="footer__link">Produtos</a>
+    <a href="#servicos" class="footer__link">Serviços</a>
+  </div>
+</footer>
+
+<script src="BT.js" defer></script>
+</body>
+</html>
